@@ -1,0 +1,13 @@
+:root{
+    --fonte-principal: 'Fraunces', serif;
+    --fonte-secundária: 'Montserrat', sans-serif;
+    --creme: hsl(30, 38%, 92%);
+    --verde: hsl(158, 36%, 37%);
+    --azul: hsl(212, 21%, 14%);
+    --azul-acinzentado: hsl(228, 12%, 48%);
+    --branco: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--creme);
+}
