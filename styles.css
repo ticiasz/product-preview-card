@@ -35,7 +35,6 @@ body{
 }
 
 .container__descrição{
-    /* box-sizing: border-box; */
     width: 50%;
     padding: 3rem;
 }
