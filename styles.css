@@ -11,3 +11,64 @@
 body{
     background-color: var(--creme);
 }
+
+.container{
+    display: flex;
+    background-color: var(--branco);
+    border-radius: 3%;
+    width: 50%;
+    height: 50%;
+}
+
+.container__imagem{
+    
+}
+
+.container__imagem-img{
+    max-width: 100%;
+    max-height: 100%;
+    /* width: auto;
+    height: auto; */
+}
+
+.container__descrição{
+    padding: 25px;
+}
+
+.container__subtítulo{
+    color: var(--azul-acinzentado);
+    font-family: var(--fonte-secundária);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.container__título{
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.container__texto{
+    color: var(--azul-acinzentado);
+    font-family: var(--fonte-secundária);
+    font-size: 14px;
+}
+
+.container__preço{
+    display: flex;
+    padding: 20px 0;
+}
+
+.preço{
+    color: var(--verde);
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+}
+
+.preço__antigo{
+    color: var(--azul-acinzentado);
+    font-family: var(--fonte-secundária);
+    text-decoration: line-through;
+}
