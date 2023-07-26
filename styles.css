@@ -10,37 +10,34 @@
 
 body{
     background-color: var(--creme);
-    /* height: 100vh; */
+    font-weight: 500;
 }
 
 .corpo{
-    padding: 10% 25%;
+    /* padding: 10% 30%; */
+    height: 98vh;
+    display: flex;
 }
 
 .container{
     display: flex;
     background-color: var(--branco);
     border-radius: 3%;
+    height: 55%;
+    width: 40%;
+    margin: auto;
 }
 
 .container__imagem{
-    /* box-sizing: border-box; */
     width: 50%;
     background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
-    /* background-repeat: no-repeat; */
 }
 
-/* .container__imagem-img{
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-} */
-
 .container__descrição{
+    /* box-sizing: border-box; */
     width: 50%;
-    padding: 25px;
+    padding: 3rem;
 }
 
 .container__subtítulo{
@@ -53,7 +50,6 @@ body{
 .container__título{
     color: var(--azul);
     font-family: var(--fonte-principal);
-    font-weight: 700;
     font-size: 2.5rem;
     padding: 2rem 0;
 }
@@ -62,11 +58,14 @@ body{
     color: var(--azul-acinzentado);
     font-family: var(--fonte-secundária);
     font-size: 1rem;
+    line-height: 25px;
 }
 
 .container__preço{
     display: flex;
-    padding: 1.3rem 0;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.5rem 0;
 }
 
 .preço{
@@ -83,14 +82,16 @@ body{
 
 .container__botão{
     display: block;
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-color: var(--verde);
     color: var(--branco);
     font-family: var(--fonte-secundária);
+    font-size: 1rem;
     font-weight: 700;
     padding: 0.8rem 0;
     border-radius: 14px;
+    border: none;
 }
 
 .botão__imagem{
